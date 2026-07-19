@@ -1,7 +1,7 @@
 # 5G Base Station Energy Consumption Prediction
 
 This competition is hosted on Zindi, a machine learning platform for data science challenges.  
-Here is the link to the competition: [AI/ML for 5G-Energy Consumption Modelling by ITU AI/ML in 5G Challenge 🌾 - CHF 20 000 USD](https://zindi.africa/competitions/aiml-for-5g-energy-consumption-modelling)
+Here is the link to the competition: [AI/ML for 5G-Energy Consumption Modelling by ITU AI/ML in 5G Challenge 🌾 - CHF 20 000](https://zindi.africa/competitions/aiml-for-5g-energy-consumption-modelling)
 
 Ranked in the TOP 51%
 ---
