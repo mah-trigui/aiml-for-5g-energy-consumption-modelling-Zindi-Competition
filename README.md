@@ -15,14 +15,14 @@ Predicting energy consumption for 5G base stations from network load, energy-sav
 ```r
 energy <- energy %>%
   mutate(
-    perct = case_when(
-      nb_cell == 2 & freq_cat == '365'    ~ AVG_365,
-      nb_cell == 2 & freq_cat == '426.98' ~ AVG_426,
-      nb_cell == 2 & freq_cat == '155.6'  ~ AVG_155,
-      nb_cell == 2 & freq_cat == '189'    ~ AVG_189,
+    percentage = case_when(
+      nb_cell == 2 & freq_categ == '365'    ~ AVG_365,
+      nb_cell == 2 & freq_categ == '426.98' ~ AVG_426,
+      nb_cell == 2 & freq_categ == '155.6'  ~ AVG_155,
+      nb_cell == 2 & freq_categ == '189'    ~ AVG_189,
       TRUE ~ 1
     ),
-    target = Energy * perct
+    target = Energy * percentage
   )
 ```
 
